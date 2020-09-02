@@ -1,8 +1,8 @@
 <?php
 
-namespace IntercaseTools\Repositories\Contracts;
+namespace DanganfTools\Repositories\Contracts;
 
-use IntercaseTools\Exceptions\ApiException;
+use DanganfTools\Exceptions\ApiException;
 
 abstract class RepositoryAbstract implements RepositoryInterface
 {

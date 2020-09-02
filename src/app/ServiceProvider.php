@@ -1,6 +1,6 @@
 <?php
 
-namespace IntercaseTools;
+namespace DanganfTools;
 
 use Illuminate\Support\ServiceProvider as IlluminateSP;
 
@@ -25,10 +25,10 @@ class ServiceProvider extends IlluminateSP
 
         #FACADES
         $app = \Illuminate\Foundation\AliasLoader::getInstance();
-        $app->alias('IntercaseValidator', 'IntercaseTools\Facades\IntercaseValidatorFacades');
-        $app->alias('ThrowNew'          , 'IntercaseTools\Facades\ThrowNewExceptionFacades');
-        $app->alias('LogDebug'          , 'IntercaseTools\Facades\LogDebugFacades');
-        $app->alias('CoreConfig'        , 'IntercaseTools\Facades\CoreConfigDataFacades');
+        $app->alias('IntercaseValidator', 'DanganfTools\Facades\IntercaseValidatorFacades');
+        $app->alias('ThrowNew'          , 'DanganfTools\Facades\ThrowNewExceptionFacades');
+        $app->alias('LogDebug'          , 'DanganfTools\Facades\LogDebugFacades');
+        $app->alias('CoreConfig'        , 'DanganfTools\Facades\CoreConfigDataFacades');
     }
 
     /**

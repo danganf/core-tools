@@ -1,8 +1,8 @@
 <?php
 
-namespace IntercaseTools\MyClass\Contracts;
+namespace DanganfTools\MyClass\Contracts;
 
-use IntercaseTools\MyClass\JsonBlank;
+use DanganfTools\MyClass\JsonBlank;
 
 abstract class InstanceAbstract
 {

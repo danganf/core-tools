@@ -1,8 +1,8 @@
 <?php
 
-namespace IntercaseTools\Repositories\Contracts;
+namespace DanganfTools\Repositories\Contracts;
 
-use IntercaseTools\MyClass\Json\Contracts\JsonAbstract;
+use DanganfTools\MyClass\Json\Contracts\JsonAbstract;
 
 interface RepositoryInterface
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace IntercaseTools\MyClass;
+namespace DanganfTools\MyClass;
 
 use Monolog\Logger,
     Monolog\Handler\StreamHandler,

@@ -1,6 +1,6 @@
 <?php
 
-namespace IntercaseTools\Model\Contracts;
+namespace DanganfTools\Model\Contracts;
 
 use Illuminate\Database\Eloquent\Model;
 

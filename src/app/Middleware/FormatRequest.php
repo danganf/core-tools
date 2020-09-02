@@ -3,7 +3,7 @@
 namespace App\Http\Middleware;
 
 use Closure;
-use IntercaseTools\MyClass\JsonBlank;
+use DanganfTools\MyClass\JsonBlank;
 
 class FormatRequest
 {

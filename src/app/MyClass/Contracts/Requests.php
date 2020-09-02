@@ -1,8 +1,8 @@
 <?php
 
-namespace IntercaseTools\MyClass\Contracts;
+namespace DanganfTools\MyClass\Contracts;
 
-use IntercaseTools\MyClass\Curl;
+use DanganfTools\MyClass\Curl;
 
 abstract class Requests {
 

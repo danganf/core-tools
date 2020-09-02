@@ -1,10 +1,10 @@
 <?php
-namespace IntercaseTools\App\MyClass;
+namespace DanganfTools\App\MyClass;
 
 use Illuminate\Support\Facades\App;
-use IntercaseTools\Exceptions\ApiException;
-use IntercaseTools\MyClass\Contracts\InstanceAbstract;
-use IntercaseTools\MyClass\JsonBlank;
+use DanganfTools\Exceptions\ApiException;
+use DanganfTools\MyClass\Contracts\InstanceAbstract;
+use DanganfTools\MyClass\JsonBlank;
 
 class RepositoryFactory extends InstanceAbstract {
 
@@ -20,7 +20,7 @@ class RepositoryFactory extends InstanceAbstract {
         $paths = [
             $dir . '/app/Repositories/Service{VIEW}/'                   => 'App\Repositories\Service{VIEW}',
             $dir . '/app/Repositories/'                                 => 'App\Repositories',
-            $dir . '/vendor/intercase/core-tools/src/app/Repositories/' => 'IntercaseTools\Repositories',
+            $dir . '/vendor/intercase/core-tools/src/app/Repositories/' => 'DanganfTools\Repositories',
         ];
 
         foreach ($paths as $path => $nameSpace) {

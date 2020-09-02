@@ -1,9 +1,9 @@
 <?php
 
-namespace IntercaseTools\App\Service;
+namespace DanganfTools\App\Service;
 
 use Illuminate\Support\Facades\Mail;
-use IntercaseTools\Exceptions\ApiException;
+use DanganfTools\Exceptions\ApiException;
 
 class EmailService
 {

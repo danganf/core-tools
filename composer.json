@@ -1,5 +1,5 @@
 {
-  "name": "intercase/goal-core-tools",
+  "name": "danganf/core-tools",
   "description": "Default files for Laravel",
   "type": "library",
   "license": "MIT",
@@ -19,7 +19,7 @@
   },
   "autoload": {
     "psr-4": {
-      "IntercaseTools\\": "src/app/"
+      "DanganfTools\\": "src/app/"
     },
     "files": [
       "src/app/Helpers/helpers.php"

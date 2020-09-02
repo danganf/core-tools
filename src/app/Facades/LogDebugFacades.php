@@ -1,6 +1,6 @@
 <?php
 
-namespace IntercaseTools\Facades;
+namespace DanganfTools\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -17,6 +17,6 @@ class LogDebugFacades extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'IntercaseTools\MyClass\LogDebug';
+        return 'DanganfTools\MyClass\LogDebug';
     }
 }

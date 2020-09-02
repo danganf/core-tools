@@ -1,9 +1,9 @@
 <?php
 
-namespace IntercaseTools\Repositories;
+namespace DanganfTools\Repositories;
 
-use IntercaseTools\MyClass\Json\Contracts\JsonAbstract;
-use IntercaseTools\Repositories\Contracts\RepositoryAbstract;
+use DanganfTools\MyClass\Json\Contracts\JsonAbstract;
+use DanganfTools\Repositories\Contracts\RepositoryAbstract;
 
 class CoreConfigRepository extends RepositoryAbstract {
 

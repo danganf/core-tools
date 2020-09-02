@@ -1,6 +1,6 @@
 <?php
 
-namespace IntercaseTools\App\Http\Middleware;
+namespace DanganfTools\App\Http\Middleware;
 
 use Illuminate\Support\Facades\App;
 

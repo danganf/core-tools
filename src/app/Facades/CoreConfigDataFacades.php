@@ -1,6 +1,6 @@
 <?php
 
-namespace IntercaseTools\Facades;
+namespace DanganfTools\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -17,6 +17,6 @@ class CoreConfigDataFacades extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'IntercaseTools\MyClass\CoreConfigData';
+        return 'DanganfTools\MyClass\CoreConfigData';
     }
 }

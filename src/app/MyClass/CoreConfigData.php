@@ -1,10 +1,10 @@
 <?php
 
-namespace IntercaseTools\MyClass;
+namespace DanganfTools\MyClass;
 
 use Illuminate\Http\Request;
 use Illuminate\Session\Store;
-use IntercaseTools\Facades\ThrowNewExceptionFacades;
+use DanganfTools\Facades\ThrowNewExceptionFacades;
 
 class CoreConfigData
 {
