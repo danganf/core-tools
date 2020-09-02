@@ -1,0 +1,28 @@
+{
+  "name": "intercase/goal-core-tools",
+  "description": "Default files for Laravel",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "laravel",
+    "auth"
+  ],
+  "authors": [
+    {
+      "name":     "Daniel Azevedo",
+      "email":    "danielazevedo2k12@gmail.com",
+      "homepage": "https://github.com/danganf"
+    }
+  ],
+  "require": {
+    "php": ">=7.2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "IntercaseTools\\": "src/app/"
+    },
+    "files": [
+      "src/app/Helpers/helpers.php"
+    ]
+  }
+}
