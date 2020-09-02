@@ -25,10 +25,10 @@ class ServiceProvider extends IlluminateSP
 
         #FACADES
         $app = \Illuminate\Foundation\AliasLoader::getInstance();
-        $app->alias('IntercaseValidator', 'DanganfTools\Facades\IntercaseValidatorFacades');
-        $app->alias('ThrowNew'          , 'DanganfTools\Facades\ThrowNewExceptionFacades');
-        $app->alias('LogDebug'          , 'DanganfTools\Facades\LogDebugFacades');
-        $app->alias('CoreConfig'        , 'DanganfTools\Facades\CoreConfigDataFacades');
+        $app->alias('DanganfValidator', 'DanganfTools\Facades\DanganfValidatorFacades');
+        $app->alias('ThrowNew'        , 'DanganfTools\Facades\ThrowNewExceptionFacades');
+        $app->alias('LogDebug'        , 'DanganfTools\Facades\LogDebugFacades');
+        $app->alias('CoreConfig'      , 'DanganfTools\Facades\CoreConfigDataFacades');
     }
 
     /**

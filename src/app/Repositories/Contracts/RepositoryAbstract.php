@@ -308,7 +308,7 @@ abstract class RepositoryAbstract implements RepositoryInterface
 
         $factoryFind = [
             app_path('Models/')                                            => 'App\Models\\',
-            //base_path('vendor/intercase/magali-apicenter/src/app/Models/') => 'MagaliApi\Models\\',
+            //base_path('vendor/danganf/magali-apicenter/src/app/Models/') => 'MagaliApi\Models\\',
         ];
 
         $instance = null;

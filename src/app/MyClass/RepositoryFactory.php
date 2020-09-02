@@ -18,9 +18,9 @@ class RepositoryFactory extends InstanceAbstract {
         $dir = base_path();
 
         $paths = [
-            $dir . '/app/Repositories/Service{VIEW}/'                   => 'App\Repositories\Service{VIEW}',
-            $dir . '/app/Repositories/'                                 => 'App\Repositories',
-            $dir . '/vendor/intercase/core-tools/src/app/Repositories/' => 'DanganfTools\Repositories',
+            $dir . '/app/Repositories/Service{VIEW}/'                 => 'App\Repositories\Service{VIEW}',
+            $dir . '/app/Repositories/'                               => 'App\Repositories',
+            $dir . '/vendor/danganf/core-tools/src/app/Repositories/' => 'DanganfTools\Repositories',
         ];
 
         foreach ($paths as $path => $nameSpace) {
