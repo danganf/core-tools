@@ -178,7 +178,7 @@ abstract class RepositoryAbstract implements RepositoryInterface
             foreach( $this->with as $with ){
                 $fields    = is_array( $with['fields'] ) ? $with['fields'] : explode(',', str_replace(', ', ',', $with['fields']));
                 $filterRaw = empty( $with['filterRaw'] ) ? null : $with['filterRaw'];
-                $model->with([ $with['name'] => function($query) use ($fields,$filterRaw) {
+                $model = $model->with([ $with['name'] => function($query) use ($fields,$filterRaw) {
                     if( !empty( $fields ) && is_array( $fields ) ) {
                         $query->select($fields);
                     }
